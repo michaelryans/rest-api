@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use('/api', userRouter)
 app.get('/*', (req,res) => {
-    res.status(404).send('not found')
+    res.status(200).send('More information check -- <a href="https://github.com/michaelryans/rest-api"> https://github.com/michaelryans/rest-api </a> ')
 })
 
 app.listen(PORT, ()=> {

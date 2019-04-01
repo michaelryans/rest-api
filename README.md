@@ -12,7 +12,6 @@ REST API built with Express and Sequelize
 | /api/hello?name={name} | GET | none | none | Print hello, {name}! | 
 
 <br>
-<br>
 
 ### List of user routes: 
 | Routes        | HTTP           | Header(s) | Body| Description |
@@ -25,7 +24,6 @@ REST API built with Express and Sequelize
 | | | | | | 
 
 <br>
-<br>
 
 ### List of filter routes:
 | Routes        | HTTP           | Description |
@@ -33,12 +31,11 @@ REST API built with Express and Sequelize
 | /api/users?name=<KEYWORD> | GET | Get users by name | 
 
 <br>
-<br>
 
 
 ## Usage
 Make sure Node.js is installed in your computer then run these commands:
 
-> $ npm install <br>
-> $ npm start <br>
-> $ npm run dev <br>
+> `$ npm install` <br>
+> `$ npm start` <br>
+> `$ npm run dev` <br>
