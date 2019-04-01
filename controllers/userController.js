@@ -28,7 +28,8 @@ class userController {
         User.create({
             username: req.body.username,
             email: req.body.email,
-            password: bcrypt.hashSync(req.body.password, bcrypt.genSaltSync(10))
+            password: bcrypt.hashSync(req.body.password, bcrypt.genSaltSync(10)),
+            role: req.body.role
         })
         .then(created => {
             res.status(200).json(created)
@@ -72,6 +73,7 @@ class userController {
             result.username = req.body.username,
             result.email = req.body.email,
             result.password = req.body.password
+            result.role = req.body.role
 
             return result.save()
         })
