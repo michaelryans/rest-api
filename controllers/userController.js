@@ -1,6 +1,7 @@
 const {User} = require('../models')
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
+const dotenv = require('dotenv').config()
 
 class userController {
     static getAll(req,res) {
