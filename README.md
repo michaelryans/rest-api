@@ -25,14 +25,6 @@ REST API built with Express and Sequelize
 
 <br>
 
-### List of filter routes:
-| Routes        | HTTP           | Description |
-| ------------- |:-------------:| :-----:| 
-| /api/users?name=<KEYWORD> | GET | Get users by name | 
-
-<br>
-
-
 ## Usage
 Make sure Node.js is installed in your computer then run these commands:
 
