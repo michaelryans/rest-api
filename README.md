@@ -16,7 +16,7 @@ REST API built with Express and Sequelize
 
 ### List of user routes: 
 | Routes        | HTTP           | Header(s) | Body| Description |
-| ------------- |:-------------:| :---:| ---- | --- |
+| ------------- |:-------------:| :---:| ---- | --- | 
 | /api/users | GET | none | none | Get all the users | 
 | /api/users/:id | GET| none | none | Get a single user | 
 | /api/users | POST | none | name:String **(Required)** <br>email:String **(Required)** <br>password:String **(Required)** <br> | Create a user| 
