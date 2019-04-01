@@ -29,5 +29,3 @@ REST API built with Express and Sequelize
 Make sure Node.js is installed in your computer then run these commands:
 
 > `$ npm install` <br>
-> `$ npm start` <br>
-> `$ npm run dev` <br>
